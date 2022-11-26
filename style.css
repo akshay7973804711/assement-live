@@ -1,0 +1,93 @@
+.flex-container{
+    padding: 20px;
+    height: 250px;
+    width: 400px;
+    background-color: black;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around; 
+   text-align: center;
+/* justify-content: center;   */
+}
+.flex-item {
+    flex-wrap: wrap;
+    color: white;
+    flex-wrap: wrap;
+   display: flex;
+   justify-content: space-evenly;
+   border-radius: 8px; 
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 204, 149);
+   
+}
+.flex-item1 {
+   
+    color: white;
+    flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+   border-radius: 8px; 
+    width: 50px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 204, 149);
+}
+.flex-item2 {
+    
+    color: white;
+    /* flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around; */
+   border-radius: 8px; 
+    width: 190px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 204, 149);
+}
+.flex-item3 {
+    color: white;
+    /* flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around; */
+   border-radius: 8px; 
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 204, 149);
+}
+.card{
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+    height: 250px;
+    width: 550px;
+    background-color: rgb(226, 139, 25);
+  margin-left: 1500px;
+  margin-top: -300px;
+}
+img{
+    background-color: rgb(226, 139, 25);
+    height: 50px;
+    width: 200px;
+  
+}
+.h{
+text-align: center;
+}
+.box{
+
+    margin-left: 380px;
+   width: 550px;
+   height: 250px;
+   display: inline-block;
+   box-sizing: border-box;
+   background-image: url(./img2.png);
+   background-position: center;
+   background-size: cover;
+}
